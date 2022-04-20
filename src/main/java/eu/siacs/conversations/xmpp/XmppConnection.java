@@ -1498,6 +1498,7 @@ public class XmppConnection implements Runnable {
             //account.setResource(createNewResource());
             Log.d(Config.LOGTAG, account.getJid().asBareJid() + ": switching resource due to conflict (" + account.getResource() + ")");
             //throw new IOException();
+            //zain
             throw new StateChangingException(Account.State.REGISTRATION_CONFLICT);
         } else if (streamError.hasChild("host-unknown")) {
             throw new StateChangingException(Account.State.HOST_UNKNOWN);
