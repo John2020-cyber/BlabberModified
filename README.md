@@ -1,1 +1,37 @@
-Custom Build
+# Managed Applications to Product Owner Mapping
+
+| Namespace                                          | MachinePool |
+| :----------------------------------------------    | :-----:     |
+| Flux-System                                        | Pipeline    |
+| OpenShift-Gitops                                   | Pipeline    |
+| OpenShift-Image-Registry                           | Pipeline    |
+| OpenShift-Ingress-Canary                           | Default     |
+| OpenShift-Ingress                                  | Default     |
+| OpenShift-Logging                                  | Logging     |
+| OpenShift-Managed-Upgrade-Operator                 | Default     |
+| OpenShift-Monitoring                               | Monitoring  |
+| OpenShift-Pipelines                                | Pipeline    |
+| OpenShift-Rbac-Permissions                         | Security    |
+| OpenShift-Velero                                   | Default     |
+| Stakater-Auth                                      | Security    |
+| Stakater-Cert-Manager-Operator                     | Security    |
+| Stakater-External-Secrets-Operator                 | Security    |
+| Stakater-Forecastle                                | Monitoring  |
+| Stakater-Group-Sync-Operator                       | Security    |
+| Stakater-Helm-Operator                             | Pipeline    |
+| Stakater-Ingress-Monitor-Controller                | Monitoring  |
+| Stakater-Istio-System	                             | Security    |
+| Stakater-Konfigurator                              | Logging     |
+| Stakater-Kubehealth                                | Monitoring  |
+| Stakater-Kubernetes-Replicator                     | Pipeline    |
+| Stakater-Namespace-Configuration-Operator          | Pipeline    |
+| Stakater-Nexus                                     | Pipeline    |
+| Stakater-Reloader                                  | Monitoring  |
+| Stakater-Sealed-Secrets                            | Security    |
+| Stakater-Sonarqube                                 | Pipeline    |
+| Stakater-Sre-Pruning                               | Monitoring  |
+| Stakater-System                                    | Default     |
+| Stakater-Tenant-Operator                           | Security    |
+| Stakater-Tronador                                  | Pipeline    |
+| Stakater-Vault                                     | Security    |
+| Stakater-Volume-Expander-Operator                  | Monitoring  |
